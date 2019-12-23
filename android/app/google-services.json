@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "596556404403",
+    "firebase_url": "https://notaris-778a9.firebaseio.com",
+    "project_id": "notaris-778a9",
+    "storage_bucket": "notaris-778a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596556404403:android:66e4e93993d43a636742c6",
+        "android_client_info": {
+          "package_name": "com.AppPerizinan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596556404403-mc2770crvcfs1hmsu8lfhg2rl48gsd2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7JSs835j48IRXV_qwaoRIDZMVfJJKYrs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596556404403-mc2770crvcfs1hmsu8lfhg2rl48gsd2h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

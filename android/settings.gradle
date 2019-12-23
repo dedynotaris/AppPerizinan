@@ -1,0 +1,11 @@
+rootProject.name = 'AppPerizinan'
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+include ':react-native-image-to-pdf'
+project(':react-native-image-to-pdf').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-image-to-pdf/android')
+include ':react-native-html-to-pdf-custom'
+project(':react-native-html-to-pdf-custom').projectDir = new File(rootProject.projectDir,'../node_modules/react-native-html-to-pdf-custom/android')
+include ':react-native-tesseract-ocr'
+project(':react-native-tesseract-ocr').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-tesseract-ocr/android')
+include ':react-native-text-detector'
+project(':react-native-text-detector').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-text-detector/android')
